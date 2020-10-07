@@ -1,4 +1,4 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="defuj.retrofit2authorization"
-    android:versionCode="100"
-    android:versionName="1.0.0"/>
+    android:versionCode="102"
+    android:versionName="1.0.2"/>
