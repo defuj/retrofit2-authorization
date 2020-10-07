@@ -1,14 +1,11 @@
-apply plugin: 'com.android.application'
-apply plugin: 'maven'
+apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
+
 group = 'com.github.defuj'
 
 android {
     compileSdkVersion 29
-    buildToolsVersion "30.0.2"
-
     defaultConfig {
-        applicationId "defuj.retrofit2authorization"
         minSdkVersion 21
         targetSdkVersion 29
     }
