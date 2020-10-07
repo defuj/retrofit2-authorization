@@ -12,12 +12,12 @@ import retrofit2.Retrofit
 import retrofit2.converter.scalars.ScalarsConverterFactory
 import java.util.concurrent.ConcurrentHashMap
 
-class Utils {
+object Defuj {
     val AUTH_TYPE_BEARER = 0
     val AUTH_TYPE_DIGEST = 1
 
     //for Authorization Bearer
-    inner class OAuthInterceptor(private val tokenType: String, private val accessToken: String):
+    class OAuthInterceptor(private val tokenType: String, private val accessToken: String):
         Interceptor {
         override fun intercept(chain: Interceptor.Chain): okhttp3.Response {
             var request = chain.request()
