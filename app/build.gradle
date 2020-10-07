@@ -1,5 +1,6 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
+//apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: 'maven'
 
 group = 'com.github.defuj'
 
@@ -8,6 +9,8 @@ android {
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 29
+        versionCode 103
+        versionName '1.0.3'
     }
 
     lintOptions {
