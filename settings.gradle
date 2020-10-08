@@ -1,2 +1,3 @@
+include ':retrofit2authorization'
 include ':app'
 rootProject.name = "Retrofit2Authorization"
